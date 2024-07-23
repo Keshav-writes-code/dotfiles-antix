@@ -1,0 +1,17 @@
+# Pluggable devices are handled by uDev, they are not in fstab
+UUID=d018c2ff-282c-4a05-8112-7cc46760c682 / ext4 noatime 1 1
+UUID=BA1B-B6CC /boot/efi vfat noatime,dmask=0002,fmask=0113 0 0
+#-> /dev/sda1  label=Backup
+UUID=CA4C40CB4C40B3CB			/media/Backup			ntfs-3g		defaults	0	0
+#-> /dev/sdb1
+UUID=8A60-3102				/media/8A60-3102		vfat		noauto		0	0
+#-> /dev/sdb3
+UUID=78F468D0F46891E4			/media/78F468D0F46891E4		ntfs-3g		noauto		0	0
+#-> /dev/sdb4
+UUID=0A94CD8294CD712D			/media/0A94CD8294CD712D		ntfs-3g		noauto		0	0
+#-> /dev/sdb5  label=SSD
+UUID=A09C42E19C42B218			/media/SSD			ntfs-3g		defaults	0	0
+#-> /dev/sdc1  label=HDD
+UUID=4072E8FF72E8FA94			/media/HDD1			ntfs-3g		defaults	0	0
+#-> /dev/sdc2  label=HDD
+UUID=808E254B8E253AD4			/media/HDD2			ntfs-3g		defaults3	0	0
