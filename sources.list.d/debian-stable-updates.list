@@ -1,0 +1,2 @@
+# Debian Bookworm Updates
+deb http://ftp.cn.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware

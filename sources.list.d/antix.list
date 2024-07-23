@@ -1,0 +1,11 @@
+# Use with Debian Stable/stretch repositories. Set as default for antiX-17. Note new repos
+deb https://mirror.kku.ac.th/mx-packages/antix/ bullseye main nosystemd nonfree
+#deb-src https://mirror.kku.ac.th/mx-packages/antix/stretch stretch main nosystemd
+
+# Use with Debian Testing/'rolling' repositories. 
+#deb https://mirror.kku.ac.th/mx-packages/antix/testing testing main nosystemd
+#deb-src https://mirror.kku.ac.th/mx-packages/antix/testing testing main nosystemd
+
+# Use with Debian Sid repositories. 
+#deb https://mirror.kku.ac.th/mx-packages/antix/sid sid main nosystemd
+#deb-src https://mirror.kku.ac.th/mx-packages/antix/sid sid main nosystemd
