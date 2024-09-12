@@ -16,6 +16,7 @@ thorium-browser &
 syncthing &
 copyq &
 flameshot &
+kitty btop &
 
 ## fix HiDPI screen if necessary.
 ## Not needed if there is no HiDPI screen 
