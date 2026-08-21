@@ -41,4 +41,7 @@ language-servers = ["astro-ls"]
 formatter = { command = "prettier", args = ["--plugin", "prettier-plugin-astro", "--parser", "astro"] }
 auto-format = true
 
-
+[[language]]
+name = "svelte"
+auto-format = true
+language-servers = [ "svelteserver",]
